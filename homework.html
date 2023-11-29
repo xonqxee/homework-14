@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Form</title>
+</head>
+<body>
+
+    <form id="cookieForm">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Вік:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="expiryDays">Дні зберігання cookie:</label>
+        <input type="number" id="expiryDays" name="expiryDays" required>
+
+        <button type="button" onclick="setCookie()">Встановити Cookie</button>
+    </form>
+
+    <script src="my.js"></script>
+
+</body>
+</html>
+
